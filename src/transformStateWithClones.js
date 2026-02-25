@@ -26,7 +26,7 @@ function transformStateWithClones(state, actions) {
         break;
 
       default:
-        break;
+        return 'Unknown value!';
     }
     stateHistory.push({ ...currentState });
   }
